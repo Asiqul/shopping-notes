@@ -58,7 +58,7 @@ export default function AddItem() {
               onChange={(e) => setQuantity(e.target.value)}
             />
             <div className="flex gap-1 justify-center my-2 w-full">
-              <Button name="batal" size="btn-sm" variant="btn-error" onClick={() => setIsOpen(false)} />
+              <Button type="button" name="batal" size="btn-sm" variant="btn-error" onClick={() => setIsOpen(false)} />
               <Button type="submit" name="simpan" size="btn-sm" variant="btn-success" />
             </div>
           </form>

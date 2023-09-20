@@ -1,6 +1,6 @@
 type ButtonProps = {
   name: string;
-  type?: 'submit';
+  type?: 'submit' | 'button';
   variant?: string;
   size: string;
   onClick?: () => void;
