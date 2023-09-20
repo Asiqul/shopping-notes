@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+  mysql_db:
+    image: mysql:latest
+    ports:
+      - '3306:3306'
+    environment:
+      - MYSQL_DATABASE=shopping-notes
+      - MYSQL_ROOT_PASSWORD=rootpassword
+
+    volumes:
+      - mysql-db:/var/lib/mysql
+
+volumes:
+  mysql-db:
