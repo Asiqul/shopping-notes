@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-    @apply min-h-screen container mx-auto;
-  }
+    body {
+        @apply min-h-screen container mx-auto;
+    }
 }
